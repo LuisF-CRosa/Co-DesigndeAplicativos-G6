@@ -5,3 +5,36 @@
 head{
     display: flex;
 }
+.titulo{
+    text-align:center;
+    border-bottom:0.5rem solid black;
+    margin-bottom:5rem;
+    padding: 1rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem; 
+}
+.img_market{
+    width: 18rem;
+    height: auto;
+}
+.fruta{
+    display:flex;
+    flex-direction:column;
+}
+.footer{
+    display:flex;
+    justify-content:space-around;
+    border-top:0.5rem solid black;
+    margin-top:5rem;
+    padding:1rem;
+
+}
+.botoes{
+    margin:0 2rem;
+    width:1rem;
+    height:auto;
+}
