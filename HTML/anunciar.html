@@ -18,32 +18,37 @@
             </h1>
         </header>
         <main>
-            <ul>
-                <li>
-                    <label for="PRODUTO">PRODUTO:</label>
-                    <input id="PRODUTO" name="PRODUTO" placeholder="Digite o produto">
+            <ul class="setores">
+                <li class="produto">
+                    <input id="PRODUTO" name="PRODUTO" placeholder="PRODUTOS" list="lista-produtos">
+
+                    <datalist id="lista-produtos">
+                        <option value="Banana">
+                        <option value="Alface">
+                        <option value="Cenoura">
+                        <option value="Tomate">
+                        <option value="Melão">
+                        <option value="Abacaxi">
+                    </datalist>
                 </li>
-                <li>
-                    AVANÇADO
+                <li class="avancado">
+                    <p>AVANÇADO</p>
                 </li>
-                <li>
-                    <label for="PREÇO">PREÇO:</label>
-                    <input id="PREÇO" name="PREÇO" placeholder="Digite o preço"> R$
+                <li class="preco">
+                    <input id="PREÇO" name="PREÇO" placeholder="Digite o preço">R$
                 </li>
-                <li>
-                    <label for="QUANTIDADE">QUANTIDADE:</label>
-                    <label for="PESO">PESO:</label>
+                <li class="peso">
                     <input id="QUANTIDADE" name="QUANTIDADE" placeholder="Digite a quantidade">
-                    <select id = 'PESO' name ='PESO'>
-                        <option value = '1'>Quilograma </option>
-                        <option value = '2'>Tonelada </option>
-                        <option value = '3'>Saca </option>
-                        <option value = '4'>Arroba </option>
-                        <option value = '5'>Caixa </option>
-                        <option value = '6'>Unidade </option>
+                    <select id="PESO" name="PESO">
+                        <option value="1">kg</option>
+                        <option value="2">t</option>
+                        <option value="3">sc</option>
+                        <option value="4">@</option>
+                        <option value="5">cx</option>
+                        <option value="6">un</option>
                     </select>
                 </li>
-                <li>
+                <li class="confirmar">
                     <a
                         href="anuncio_confirmado.html">CONFIRMAR <img src="../img/confirmado.png" alt="Descrição da imagem">
                     </a>
