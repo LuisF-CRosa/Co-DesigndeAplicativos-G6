@@ -1,8 +1,8 @@
 .logo{
     width: auto;
-    height: 100%;
+    height: 10rem;
 }
-head{
+.head{
     display: flex;
 }
 .titulo{
