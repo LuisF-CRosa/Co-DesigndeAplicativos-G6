@@ -1,3 +1,7 @@
+.logo{
+    width: 300px;
+    height: 300px;
+}
 .titulo{
     text-align:center;
     border-bottom:0.5rem solid black;
