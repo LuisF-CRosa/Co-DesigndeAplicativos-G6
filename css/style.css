@@ -30,6 +30,7 @@
     overflow:hidden;
     position:fixed;
     top:0;
+    left:0;
     width:100%;
     background-color:white;
 }
@@ -38,8 +39,8 @@ main{
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    padding-top: 8rem;   /* Espaço para o header fixo */
-    padding-bottom: 8rem; /* Espaço para o footer fixo */
+    padding-top: 8rem;   
+    padding-bottom: 8rem;
 }
 .img_market{
     width: 100%;
@@ -59,9 +60,10 @@ main{
 }
 footer{
     position:fixed;
-    width:100%;
-    background-color:white;
     bottom:0;
+    left:0;
+    width:98%;
+    background-color:white;
     display:flex;
     flex-direction: row;
     justify-content:space-between;
@@ -95,4 +97,24 @@ footer{
     flex-direction:row;
     align-items:center;
     gap:1rem;
+}
+.tabela{
+    display:inline-flex;
+    flex-direction: row;
+    padding:0.5rem;
+    font-size:1rem;
+    gap:0.5rem;
+
+}
+.bolsa{
+    width:50%;
+    height:auto;
+}
+li{
+    border:0.05rem solid black;
+    padding:0.05rem;
+}
+.topo{
+    font-size:1.8rem;
+    font-weight: bold;
 }
