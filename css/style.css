@@ -34,6 +34,7 @@ main.menu_index{
     gap: 2rem;
     padding-top: 8rem;   
     padding-bottom: 8rem;
+}
 .logo{
     width: auto;
     height: 16rem;
@@ -48,6 +49,7 @@ main.menu_index{
     border: 0.08rem solid black;
     padding: 1rem 6rem;
     margin: 0.5rem;
+    background-color: #F59B1980;
 }
 .botoes_index_s{
     border: 0.08rem solid black;
@@ -59,7 +61,6 @@ main.menu_index{
     text-decoration: none;
 }
 /*Pagina Market*/
-}
 .img_market{
     width: 100%;
     height: 100%;
