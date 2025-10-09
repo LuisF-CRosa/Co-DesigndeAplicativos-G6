@@ -10,12 +10,14 @@
     border-bottom:0.5rem solid black;
     margin-bottom:5rem;
     padding: 1rem;
+    overflow:hidden;
 }
-.main{
+main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem; 
+    gap: 2rem;
+    overflow:hidden;
 }
 .img_market{
     width: 18rem;
@@ -25,16 +27,17 @@
     display:flex;
     flex-direction:column;
 }
-.footer{
+footer{
     display:flex;
-    justify-content:space-around;
+    flex-direction: row;
+    justify-content:space-between;
     border-top:0.5rem solid black;
     margin-top:5rem;
     padding:1rem;
-
+    overflow:hidden;
 }
 .botoes{
-    margin:0 2rem;
-    width:1rem;
+    margin:0.2rem;
+    width:2.5rem;
     height:auto;
 }
