@@ -24,7 +24,7 @@ main {
     align-items: center;
     gap: 2rem;
     padding-top: 5rem;
-    padding-bottom: 8rem;
+    padding-bottom: 5rem;
 }
 /*Customização do Footer*/
 footer {
@@ -202,12 +202,42 @@ main.menu_index {
     gap: 0.5rem;
 
 }
-
+/*Pagina Bolsa de Banana*/
 .bolsa {
     width: 50%;
     height: auto;
 }
+.datas {
+    display:inline-flex;
+    flex-direction:row;
+    gap:0.3rem;
 
+}
+.elemento{
+    border:0.1rem solid black;
+    border-radius: 40%;
+    background-color: rgba(198, 94, 94, 0.744);
+    padding:0.2rem;
+}
+.valores{
+    display:inline-flex;
+    flex-direction:column;
+    gap:0.3rem;
+    margin-top:1rem;
+}
+.elemento2{
+    padding:0.2rem;
+    border:0.2rem solid black;
+    background:rgb(236, 236, 129)
+}
+.bolsa_banana{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+}
 /*Pagina Anunciar*/
 ul.setores {
     display: flex;
