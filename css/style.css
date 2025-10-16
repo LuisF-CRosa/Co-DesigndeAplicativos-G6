@@ -29,6 +29,10 @@ main {
 /*Customização do Footer*/
 footer {
     display: flex;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
     flex-direction: row;
     justify-content:space-around;
     background-color: #619168;
@@ -38,6 +42,14 @@ footer {
     width: 2.5rem;
     height: auto;
     background-color: #619168;
+}
+.home {
+    margin:-1.3rem 0.2rem 0.2rem 0.2rem;
+    width: 2.5rem;
+    height: auto;
+    background-color: #619168;
+    border:0.2rem solid black;
+    border-radius:50%;
 }
 
 /*Pagina Index*/
