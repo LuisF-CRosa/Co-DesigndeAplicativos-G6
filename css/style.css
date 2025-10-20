@@ -383,6 +383,42 @@ input[list] {
     height: auto;
 }
 
+/*Pagina notícias*/
+
+.clima_p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: center;    
+
+    margin-top: 10%;
+    padding: 1%;
+    width: 85%;
+    height: 12rem;
+    border: 0.1rem solid black;
+}
+.itens_inferiores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: center;
+
+    width: 87%;
+    height: 3rem;
+    border: 0.1rem solid black;
+}
+.sub_itens{
+    height: 101%;
+    border-right:0.1rem solid black;
+}
+.nuvem{
+    height: 100%;
+    width: auto;
+
+}
+
 /* {
     border: #ff0000 solid 1px !important;
 
