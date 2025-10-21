@@ -9,7 +9,6 @@
     left: 0;
     width: 100%;
     height: auto;
-    border-bottom: 0.5rem solid black;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -24,7 +23,7 @@
         0.1rem 0.1rem 0rem #333,          /* sombra sólida tipo “contorno” */
         0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.6); /* sombra difusa mais suave */
     font-family: 'Rubik', sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 /*Customização do Main*/
 main {
@@ -232,6 +231,7 @@ main.menu_index {
     border-radius: 40%;
     background-color: rgba(198, 94, 94, 0.744);
     padding:0.2rem;
+    font-family: "Inter", sans-serif;
 }
 
 .valores {
@@ -249,6 +249,7 @@ main.menu_index {
     align-items: center;
     text-align: center;
     font-size:1.5rem;
+    font-family: "Inter", sans-serif;
 }
 .bolsa_banana {
     display: flex;
@@ -420,6 +421,7 @@ input[list] {
     
     font-size: 3rem;
     font-weight: bold;
+    font-family: "Inter", sans-serif;
 
     margin-top: 12%;
     padding: 1%;
@@ -437,6 +439,7 @@ input[list] {
 
     font-weight: bold;
     font-size: 1.3rem;
+    font-family: "Inter", sans-serif;
 
     width: 87%;
     height: 2rem;
@@ -528,6 +531,7 @@ input[list] {
     align-content: center;
     padding: 2%;
     font-size: 1.2rem;
+    font-family: "Inter", sans-serif;
     background-color: #E1C95350;
     height: 98%;
     width: 98%;
