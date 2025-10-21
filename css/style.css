@@ -416,13 +416,17 @@ input[list] {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    justify-self: center;    
+    justify-self: center;  
+    
+    font-size: 3rem;
+    font-weight: bold;
 
-    margin-top: 10%;
+    margin-top: 12%;
     padding: 1%;
     width: 85%;
     height: 8rem;
     border: 0.1rem solid black;
+    background-color: #E1C95350;
 }
 .itens_inferiores{
     display: flex;
@@ -431,9 +435,13 @@ input[list] {
     align-items: center;
     justify-self: center;
 
+    font-weight: bold;
+    font-size: 1.3rem;
+
     width: 87%;
     height: 2rem;
     border: 0.1rem solid black;
+    background-color: #E1C95395;
 }
 .sub_itens{
     align-content:center ;
@@ -441,6 +449,7 @@ input[list] {
     width: 25%;
     height: 101%;
     border-right:0.1rem solid black;
+    
 
 }
 .icones{
@@ -450,17 +459,43 @@ input[list] {
     align-items: center;
     justify-self: center;
 
-    margin: 5%;
+    overflow: hidden;
+    margin: 4%;
     width: 75%;
     height: 3.2rem;
     border: 0.1rem solid black;
 }
 .nuvem{
-    height: 100%;
+    height: 70%;
     width: auto;
 
+    
+}
+.nuvem_g{
+    height: 100%;
+    width: auto;
+    
+
+}
+.lupa_g{
+    
+    height: 100%;
+    width: auto;
+    
+}
+.caixa_icone{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 4rem;
+    border-right: 0.1rem solid black;
+    background-color: #E1C95395;
 }
 .caixa_lupa{
+    
+    background-color: #E1C95395;
     border-radius: 1rem;
     display: flex;
     flex-direction: row;
@@ -475,6 +510,8 @@ input[list] {
     justify-self: center;
 }
 .barra_pesquisa{
+    background-color: #E1C95305;
+    border: none;
     margin: 5%;
     width: 100%;
     height: 70%;
@@ -484,9 +521,17 @@ input[list] {
     width: auto;
     border-right: 0.1rem solid black;
     border-radius: 1rem;
+    background-color: #E1C953;
 
 }
-
+.texto_news{
+    align-content: center;
+    padding: 2%;
+    font-size: 1.2rem;
+    background-color: #E1C95350;
+    height: 98%;
+    width: 98%;
+}
 /* {
     border: #ff0000 solid 1px !important;
 
