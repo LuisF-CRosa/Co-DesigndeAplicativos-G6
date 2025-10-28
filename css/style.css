@@ -239,6 +239,8 @@ main.menu_index {
     flex-direction: column;
     gap: 0.3rem;
     margin-top: 1rem;
+    margin-left:auto;
+    margin-right:auto;
 }  
 .elemento2 {
     padding: 0.2rem;
