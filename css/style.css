@@ -214,6 +214,20 @@ main.menu_index {
     gap: 0.5rem;
 
 }
+.botaomarket{
+    margin: 0.5rem;
+    width: 6.5rem;
+    height: auto;
+    background-color: #619168;
+}
+.homemarket{
+    margin:-3.5rem 0.2rem 0.2rem 0.2rem;
+    width: 6.5rem;
+    height: auto;
+    background-color: #619168;
+    border:0.6rem solid black;
+    border-radius:50%;
+}
 /*Pagina Bolsa de Banana*/
 .bolsa,.valores {
     width: 80%;
