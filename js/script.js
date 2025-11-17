@@ -12,10 +12,13 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('anuncio',dados)
         
     })
-
+    // Encontra todos os elementos e os coloca numa especie de lista
     elementos = document.querySelectorAll('.elemento')
-    bolsa = document.querySelector('.bolsa') 
+    //encontra a imagem que sera modifica
+    bolsa = document.querySelector('.bolsa')
+    // muda a cor da borda da imagem inicial por verde
     elementos[1].style.borderColor = 'green'
+    // faz um for criando o mesmo tipo de evento para todos os elementos que ao clique muda a imagem torna todos os outros com a borda preta e a deste elemento verde
     for (elemente of elementos){
         if (elemente == elementos[0]){
             elemente.addEventListener('click',function(){
