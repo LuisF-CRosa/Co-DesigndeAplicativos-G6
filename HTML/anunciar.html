@@ -20,10 +20,31 @@
         </header>
 
         <dialog class="janela_avancado">
-            
+            <ul class="setores">
+                <li class="descricao">
+                    <textarea id="DESCRICAO" name="DESCRICAO" placeholder="Descrição"></textarea>
+                </li>
+                <li class="entrega">
+                    <select id="ENTREGA" name="ENTREGA">
+                        <option value="" disabled selected>Tipo de Entrega</option>
+                        <option value="1">Por conta do cliente</option>
+                        <option value="2">Por conta do estabelecimento</option>
+                    </select>
+                </li>
+                <li class="org">
+                    <select id="ORG" name="ORG">
+                        <option value="" disabled selected>Orgânico ou Não</option>
+                        <option value="1">Orgânico</option>
+                        <option value="2">Não Orgânico</option>
+                    </select>
+                </li>
+                <li class="regiao_entrega">
+                    <input id="REGENTRE" name="REGENTRE" placeholder="Região que Entrega">
+                </li>
+            </ul>
         </dialog>
 
-        <main>
+        <main class="anunciar_tela">
             <ul class="setores">
                 <li class="produto">
                     <input id="PRODUTO" name="PRODUTO" placeholder="PRODUTOS" list="lista-produtos">

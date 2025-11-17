@@ -1,6 +1,21 @@
 document.addEventListener('DOMContentLoaded', function() {
+
     // Botão Avançado do Anunciar
-    
+
+    avancado_tela=document.querySelector('.janela_avancado')
+    bot_avancado=document.querySelector('.avancado')
+    anunciar_tela=document.querySelector('.anunciar_tela')
+
+    bot_avancado.addEventListener('click', function(event) {
+        avancado_tela.style.display = 'flex'
+        event.stopPropagation()
+    })
+
+    anunciar_tela.addEventListener('click', function(event) {
+        avancado_tela.style.display = 'none'
+    })
+
+    // Back
     
     anunciar=document.querySelector('a')
     info=document.querySelectorAll('input').value
