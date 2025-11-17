@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-<<<<<<< HEAD
     // Botão Avançado do Anunciar
     
-=======
     
     anunciar=document.querySelector('a')
     info=document.querySelectorAll('input').value
@@ -16,5 +14,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
     })
 
->>>>>>> 412cd49256c4c813a9ce564a3f94e6aaecec4431
 })

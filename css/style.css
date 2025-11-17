@@ -430,13 +430,11 @@ input[list] {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
     width: 20rem;  
     height: 20rem;
-
-    background-color: #ff6bdc;
-    margin-top: 1rem;
-    padding: 0.5rem 1.5rem;
-    border: 2px solid black;
+    margin-top: 3rem;
+    background-color: #ffd190;
     
 }
 
