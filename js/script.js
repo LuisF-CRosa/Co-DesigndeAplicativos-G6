@@ -1,17 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Botão Avançado do Anunciar
-    
-    
-    anunciar=document.querySelector('a')
-    info=document.querySelectorAll('input').value
+    anunciar=document.getElementById('certo')
 
     anunciar.addEventListener('click',function(event){
-
-
-        dados={'produto':info[0],'preco':info[1],'quantidade':info[2]}
-        localStorage.setItem('anuncio',dados)
+        let anuncios=JSON.parse(localStorage.getItem('anuncios'))||[]
+        info=document.querySelectorAll('input')
+        dados={'produto':info[0].value,'preco':info[1].value,'quantidade':info[2].value}
+        anuncios.push(dados)
+        localStorage.setItem('anuncios',JSON.stringify(anuncios))   
         
     })
+    
     // Encontra todos os elementos e os coloca numa especie de lista
     elementos = document.querySelectorAll('.elemento')
     //encontra a imagem que sera modifica
