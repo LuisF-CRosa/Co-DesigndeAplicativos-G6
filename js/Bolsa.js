@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 for(element of elementos){
                     element.style.borderColor = 'black'
                 }
-                bolsa.src = '../img/Grafico_produto1.png'
+                bolsa.src = 'img/Grafico_produto1.png'
                 elementos[0].style.borderColor = 'green'
             })
         }
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 for(element of elementos){
                     element.style.borderColor = 'black'
                 }
-                bolsa.src = '../img/grafico_ban.jpeg'
+                bolsa.src = 'img/grafico_ban.jpeg'
                 elementos[1].style.borderColor = 'green'
             })
         }
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 for(element of elementos){
                     element.style.borderColor = 'black'
                 }
-                bolsa.src = '../img/Grafico_produto.png'
+                bolsa.src = 'img/Grafico_produto.png'
                 elementos[2].style.borderColor = 'green'
             })
         }
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 for(element of elementos){
                     element.style.borderColor = 'black'
                 }
-                bolsa.src = '../img/Grafico_produto2.png'
+                bolsa.src = 'img/Grafico_produto2.png'
                 elementos[3].style.borderColor = 'green'
             })
         }
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 for(element of elementos){
                     element.style.borderColor = 'black'
                 }
-                bolsa.src = '../img/Grafico_4.png'
+                bolsa.src = 'img/Grafico_4.png'
                 elementos[4].style.borderColor = 'green'
             })
         }
