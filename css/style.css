@@ -629,3 +629,60 @@ input[list] {
 
 }
 */
+
+/* Página Histórico */
+.caixa{
+    width: 85%;
+    height: 12rem;
+}
+.eixo_prin{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+.divisoes{
+    height: 20%;
+    background-color: #E1C95395;
+    text-align: center;
+    align-content: center;
+    border: 0.1rem solid black;
+    width: 100%;
+    
+}
+.subdivisoes{
+    width: 100%;
+    height: 40%;
+    background-color: #E1C95350;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-left: 0.1rem solid black;
+    border-right: 0.1rem solid black;
+    border-bottom: 0.1rem solid black;
+}
+.conteudo{
+    align-content: center;
+    text-align: center;
+    border-left: 0.05rem solid black;
+    border-right: 0.05rem solid black;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.desc{
+    display: block;
+    overflow: hidden;
+    height: 20%;
+    background-color: #E1C95350;
+    text-align: center;
+    align-content: center;
+    border-left: 0.1rem solid black;
+    border-bottom:  0.1rem solid black;
+    border-right:  0.1rem solid black;
+    width: 100%;
+}
