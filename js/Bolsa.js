@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 for(element of elementos){
                     element.style.borderColor = 'black'
                 }
-                bolsa.src = 'img/Grafico_produto1.png'
+                bolsa.src = 'img/grafico_produto1.png'
                 elementos[0].style.borderColor = 'green'
                 elementos2[1].innerHTML = 'Valor Médio: 2,1134'
                 elementos2[2].innerHTML = 'Valor Mínimo: 2,0354'
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 for(element of elementos){
                     element.style.borderColor = 'black'
                 }
-                bolsa.src = 'img/Grafico_produto2.png'
+                bolsa.src = 'img/grafico_produto2.png'
                 elementos[3].style.borderColor = 'green'
                 elementos2[1].innerHTML = 'Valor Médio: 2,2839'
                 elementos2[2].innerHTML = 'Valor Mínimo: 2,0201'
